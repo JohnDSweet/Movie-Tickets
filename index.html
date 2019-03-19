@@ -10,13 +10,14 @@
   </head>
   <body>
     <div class="container">
-      <div class="jumbotron">
+      <div class="jumbotron img"> 
         <h2>Movie Tickets </h2>
         <p>Fill out the form and rececive your movie tickets</p>
         <div id="movieInput">
           <form>
             <div class="row">
               <div class="col-md-4">
+                <h5 for="movie">Select your movie:</h5>
                 <div class="radio">
                   <label>
                     <input type="radio" name="movie" value="godfather" checked>
@@ -37,6 +38,7 @@
                 </div>
               </div>
               <div class="col-md-4">
+              <h5 for="movie">Select your time:</h5>
                 <div class="radio">
                   <label>
                     <input type="radio" name="time" value="matinee" checked>
@@ -51,6 +53,7 @@
                 </div>
                 </div>
                 <div class="col-md-4">
+                <h5 for="movie">Select your age:</h5>
                   <div class="radio">
                     <label>
                       <input type="radio" name="age" value="child" checked>
@@ -71,8 +74,13 @@
                   </div>
                 </div>
               </div>
+              <br>
             <button type="submit" class="btn btn-info" name="button">Add to Cart!</button>
           </form>
+        </div>
+        &ensp;
+        <div  class="container output">
+          <h3><span id="output"></span></h3>
         </div>
       </div>
     </div>
