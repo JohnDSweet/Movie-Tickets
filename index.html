@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>movie ticket price selector</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Movie Tickets </h2>
+        <p>Fill out the form and rececive your movie tickets</p>
+        <div id="movieInput">
+          <form>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="movie" value="godfather" checked>
+                    Godfather
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="movie" value="johnwick">
+                    John wick
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="movie" value="shrek">
+                    Shrek
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="time" value="matinee" checked>
+                    matinee
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="time" value="evening">
+                    evening
+                  </label>
+                </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="age" value="child" checked>
+                      child: 0-10
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="age" value="adult">
+                      adult: 11-64
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="age" value="senior">
+                      senior: 65+
+                    </label>
+                  </div>
+                </div>
+              </div>
+            <button type="submit" class="btn btn-info" name="button">Add to Cart!</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
